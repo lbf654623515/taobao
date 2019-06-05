@@ -68,27 +68,36 @@ html,body{
     height: 30px;
     background-color: gray;
 }
+.main-content,
 .main-content .top-nav{
+    width: 100%;
+    background-color: gray;
+}
+.main-content .top-nav .top-nav-center{
     width: 1190px;
     margin: 0 auto;
     height: 30px;
     background-color: #f40;
 }
-.main-content .top-nav .menu{
+.main-content .top-nav .top-nav-center .menu{
     height: 30px;
     margin: 0 auto;
     display: inline-block;
     float: left;
 }
-.main-content .top-nav .menu .menutop{
+.main-content .top-nav .top-nav-center .menu .menutop,
+.main-content .top-nav  .top-nav-center .menu .menutop .main-menu-title{
     display: inline-block;
+    padding: 0 8px;
+    width: 190px;
+    line-height: 30px;
+    text-align: center;
 }
-.main-content .top-nav .menu .menutop p{
-    display: inline-block;
-}
-.main-content .top-nav .menu-list,
-.main-content .top-nav .menu-list .menu-text{
+.main-content .top-nav  .top-nav-center .menu-list,
+.main-content .top-nav  .top-nav-center .menu-list .menu-text{
     height: 30px;
+    line-height: 30px;
     float: left;
     display: inline-block;
+    margin: 0 8px;
 }
