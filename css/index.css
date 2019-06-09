@@ -66,7 +66,6 @@ html,body{
 .main-content .top-nav{
     width: 100%;
     height: 30px;
-    background-color: darkgreen;
 }
 .main-content{
     height: 552px;
@@ -104,28 +103,35 @@ html,body{
     margin: 0 auto;
     width: 1190px;
     height: 522px;
-    background-color: coral;
 }
 
 .main-content .area .left-area{
     display: inline-block;
     width: 900px;
     height: 522px;
+    background-color: cyan;
 }
-.main-content .area .left-area .category-area,
-.main-content .area .left-area .category-area .category-list{
+.main-content .area .left-area .category-area{
     width: 190px;
     height: 522px;
-    background-color: brown;
+    background-color: coral;
 }
 .main-content .area .left-area .category-area .category-list{
+    width: 190px;
+    height: 512px;
+    background-color: brown;
     padding: 5px 0;
     margin: 0 auto;
 }
 .main-content .area .left-area .category-area .category-list li{
     width: 100%;
-    height: 32px;
-    line-height: 32px;
+    height: 31px;
+    line-height: 31px;
+    border-bottom: black 1px solid;
     text-align: center;
-    background-color: dimgray;
+}
+.main-content .area .left-area .category-area .category-list .categroy-line:after{
+    content: "/";
+    color: black;
+    margin: 0 5px;
 }
