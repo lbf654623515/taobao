@@ -36,6 +36,7 @@ html,body{
     display: inline-block;
 }
 .main-nav-top .content .top-menu .top-menu-sub-all p{
+    line-height: 35px;
     display: inline-block;
 }
 .main-nav-search .search-content{
