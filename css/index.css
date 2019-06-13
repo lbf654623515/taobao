@@ -165,6 +165,42 @@ html,body{
     width: 710px;
     height: 280px;
 }
+.main-content .area .left-area .left-area-menu-banner  .banner-area .banner-area-left{
+    width: 520px;
+    height: 512px;
+    display: inline-block;
+    float: left;
+    background-color: blueviolet;
+}
+.main-content .area .left-area .left-area-menu-banner  .banner-area .banner-area-left .banner-area-left-top{
+    width: 520px;
+    height: 256px;
+    background-color: blue;
+}
+.main-content .area .left-area .left-area-menu-banner  .banner-area .banner-area-left .banner-area-left-bottom{
+    width: 520px;
+    height: 256px;
+    background-color: cadetblue;
+}
+
+.main-content .area .left-area .left-area-menu-banner  .banner-area .banner-area-right .banner-area-right-top{
+    width: 190px;
+    height: 256px;
+    background-color: deeppink;
+}
+.main-content .area .left-area .left-area-menu-banner  .banner-area .banner-area-right .banner-area-right-bottom{
+    width: 190px;
+    height: 256px;
+    background-color: greenyellow;
+}
+
+.main-content .area .left-area .left-area-menu-banner  .banner-area .banner-area-right{
+    width: 190px;
+    height: 512px;
+    display: inline-block;
+    float: right;
+    background-color: darkgoldenrod;
+}
 .main-content .area .left-area .hot-sale {
     width: 900px;
     height: 100px;
