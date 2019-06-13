@@ -163,6 +163,7 @@ html,body{
 .main-content .area .left-area .hot-sale {
     width: 900px;
     height: 100px;
+    margin-top: 10px;
     background-color: darkviolet;
     color: black;
 }
