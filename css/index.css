@@ -62,7 +62,7 @@ html,body{
     display: inline-block;
     background-color: #33191970;
     position: absolute;
-    bottom: 0;
+    bottom: 8px;
     left: 280px;
 }
 .main-nav-search .search-content .hot-activity{
