@@ -157,11 +157,8 @@ html,body{
 .main-content .area .left-area .category-area .category-list .categroy-line:after{
     content: "/";
     margin: 0 5px;
-}
-.main-content .area .left-area .category-area .category-list .categroy-line:after:hover{
     cursor: text;
 }
-
 .main-content .area .left-area .left-area-menu-banner  .banner-area{
     display: inline-block;
     float: right;
