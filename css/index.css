@@ -15,7 +15,6 @@ html,body{
 .main-nav-top .content{
     width: 1190px;
     height: 100%;
-    background-color: dimgray;
     margin: 0 auto;
 }
 .main-nav-top .content .user-info{
@@ -60,29 +59,26 @@ html,body{
     width: 630px;
     height: 87px;
     display: inline-block;
-    background-color: cadetblue;
 }
 .main-nav-search .search-content .hot-activity{
     float: right;
     width: 100px;
     height: 100%;
-    background-color: chocolate;
     display: inline-block;
 }
-.main-content,
+.main-content{
+    width: 100%;
+    height: 662px;
+}
 .main-content .top-nav{
     width: 100%;
     height: 30px;
-}
-.main-content{
-    height: 662px;
-    background-color: gray;
 }
 .main-content .top-nav .top-nav-center{
     width: 1190px;
     margin: 0 auto;
     height: 30px;
-    background-color: #f40;
+    background-image: linear-gradient(to right,#fff 0, #f40 100%);
 }
 .main-content .top-nav .top-nav-center .menu{
     height: 30px;
@@ -117,20 +113,17 @@ html,body{
     float: left;
     width: 900px;
     height: 632px;
-    background-color: cyan;
 }
 .main-content .area .left-area .left-area-menu-banner{
     display: block;
     width: 900px;
     height: 522px;
-    background-color: cadetblue;
 }
 
 .main-content .area .left-area .category-area{
     float: left;
     width: 190px;
     height: 522px;
-    background-color: coral;
 }
 .main-content .area .left-area .category-area .category-list{
     width: 100%;
@@ -149,12 +142,10 @@ html,body{
 
 .main-content .area .left-area .category-area .category-list .categroy-line:after{
     content: "/";
-    color: black;
     margin: 0 5px;
 }
 
 .main-content .area .left-area .left-area-menu-banner  .banner-area{
-    background-color: darkgreen;
     display: inline-block;
     float: right;
     width: 710px;
