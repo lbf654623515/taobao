@@ -164,13 +164,10 @@ html,body{
     width: 900px;
     height: 100px;
     margin-top: 10px;
-    background-color: darkviolet;
-    color: black;
 }
 .main-content .area .right-area{
     width: 290px;
     height: 632px;
-    background-color: midnightblue;
     display: inline-block;
     float: right;
 }
