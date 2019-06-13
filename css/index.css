@@ -143,10 +143,19 @@ html,body{
     border-bottom: black 1px solid;
     text-align: center;
 }
+.main-content .area .left-area .category-area .category-list li:hover{
+    background-color: #ff4400;
+}
+.main-content .area .left-area .category-area .category-list li .categroy-sub{
+    display: inline-block;
+}
 
 .main-content .area .left-area .category-area .category-list .categroy-line:after{
     content: "/";
     margin: 0 5px;
+}
+.main-content .area .left-area .category-area .category-list .categroy-line:after:hover{
+    cursor: text;
 }
 
 .main-content .area .left-area .left-area-menu-banner  .banner-area{
