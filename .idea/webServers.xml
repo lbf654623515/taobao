@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="f2247210-f522-435b-991f-db04ffe738f6" name="三丰云" url="http://www.fql-soft.com">
-        <fileTransfer host="43.226.149.103" port="21">
+      <webServer id="f2247210-f522-435b-991f-db04ffe738f6" name="美橙" url="http://terry.w126.mc-test.com">
+        <fileTransfer host="Terry.w126.cndns5.com" port="21" rootFolder="/Terry">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

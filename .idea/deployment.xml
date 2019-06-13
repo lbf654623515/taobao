@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="三丰云">
+  <component name="PublishConfigData" autoUpload="Always" serverName="美橙">
     <serverData>
-      <paths name="三丰云">
+      <paths name="美橙">
         <serverdata>
           <mappings>
-            <mapping deploy="/Web/taobao" local="$PROJECT_DIR$" web="/taobao" />
+            <mapping deploy="/wwwroot" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
