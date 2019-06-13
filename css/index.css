@@ -165,9 +165,3 @@ html,body{
     background-color: darkviolet;
     color: black;
 }
-.test{
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    border-radius: 50px 50px 100px 100px ;
-}
