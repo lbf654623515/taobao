@@ -59,12 +59,14 @@ html,body{
     width: 630px;
     height: 87px;
     display: inline-block;
+    background-color: #33191970;
 }
 .main-nav-search .search-content .hot-activity{
     float: right;
     width: 100px;
     height: 100%;
     display: inline-block;
+    background-color: #119400d3;
 }
 .main-content{
     width: 100%;
@@ -118,12 +120,14 @@ html,body{
     display: block;
     width: 900px;
     height: 522px;
+    background-color: gray;
 }
 
 .main-content .area .left-area .category-area{
     float: left;
     width: 190px;
     height: 522px;
+    background-color: cadetblue;
 }
 .main-content .area .left-area .category-area .category-list{
     width: 100%;
@@ -155,8 +159,10 @@ html,body{
     width: 900px;
     height: 100px;
     margin-top: 10px;
+    background-color: darkcyan;
 }
 .main-content .area .right-area{
+    background-color: darkolivegreen;
     width: 290px;
     height: 632px;
     display: inline-block;
