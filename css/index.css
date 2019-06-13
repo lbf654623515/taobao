@@ -114,6 +114,7 @@ html,body{
 
 .main-content .area .left-area{
     display: inline-block;
+    float: left;
     width: 900px;
     height: 632px;
     background-color: cyan;
@@ -164,4 +165,11 @@ html,body{
     height: 100px;
     background-color: darkviolet;
     color: black;
+}
+.main-content .area .right-area{
+    width: 290px;
+    height: 632px;
+    background-color: midnightblue;
+    display: inline-block;
+    float: right;
 }
