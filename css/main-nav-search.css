@@ -1,0 +1,29 @@
+.main-nav-search {
+  width: 100%;
+  height: 100px; }
+  .main-nav-search .search-content {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative; }
+    .main-nav-search .search-content .logo {
+      display: inline-block;
+      width: 100px;
+      height: 100%;
+      background-color: #22222222; }
+    .main-nav-search .search-content .search-box {
+      width: 630px;
+      height: 87px;
+      display: inline-block;
+      background-color: #33191970;
+      position: absolute;
+      bottom: 8px;
+      left: 280px; }
+    .main-nav-search .search-content .hot-activity {
+      float: right;
+      width: 100px;
+      height: 100%;
+      display: inline-block;
+      background-color: #119400d3; }
+
+/*# sourceMappingURL=main-nav-search.css.map */
