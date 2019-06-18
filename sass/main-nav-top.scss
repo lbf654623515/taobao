@@ -1,0 +1,33 @@
+.main-nav-top {
+  width: 100%;
+  height: 35px;
+  margin: 0 auto;
+  .content {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    .user-info {
+      display: inline-block;
+      .user-info-sub {
+        height: 100%;
+        line-height: 35px;
+        font-size: 25px;
+        margin: 0 8px 0 8px;
+        display: inline-block;
+      }
+    }
+    .top-menu {
+      display: inline-block;
+      float: right;
+      .top-menu-sub-all {
+        display: inline-block;
+        height: 100%;
+        p {
+          line-height: 35px;
+          height: 100%;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

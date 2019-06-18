@@ -1,0 +1,32 @@
+.main-nav-search {
+  width: 100%;
+  height: 100px;
+  .search-content {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    .logo {
+      display: inline-block;
+      width: 100px;
+      height: 100%;
+      background-color: #22222222;
+    }
+    .search-box {
+      width: 630px;
+      height: 87px;
+      display: inline-block;
+      background-color: #33191970;
+      position: absolute;
+      bottom: 8px;
+      left: 280px;
+    }
+    .hot-activity {
+      float: right;
+      width: 100px;
+      height: 100%;
+      display: inline-block;
+      background-color: #119400d3;
+    }
+  }
+}

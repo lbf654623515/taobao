@@ -1,0 +1,28 @@
+.main-nav-top {
+  width: 100%;
+  height: 35px;
+  margin: 0 auto; }
+  .main-nav-top .content {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto; }
+    .main-nav-top .content .user-info {
+      display: inline-block; }
+      .main-nav-top .content .user-info .user-info-sub {
+        height: 100%;
+        line-height: 35px;
+        font-size: 25px;
+        margin: 0 8px 0 8px;
+        display: inline-block; }
+    .main-nav-top .content .top-menu {
+      display: inline-block;
+      float: right; }
+      .main-nav-top .content .top-menu .top-menu-sub-all {
+        display: inline-block;
+        height: 100%; }
+        .main-nav-top .content .top-menu .top-menu-sub-all p {
+          line-height: 35px;
+          height: 100%;
+          display: inline-block; }
+
+/*# sourceMappingURL=main-nav-top.css.map */

@@ -1,77 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  border: 0 solid #fff;
-}
-html,body {
-  overflow-x: hidden;
-}
-.main-nav-top {
-  width: 100%;
-  height: 35px;
-  margin: 0 auto;
-  .content {
-    width: 1190px;
-    height: 100%;
-    margin: 0 auto;
-    .user-info {
-      display: inline-block;
-      .user-info-sub {
-        height: 100%;
-        line-height: 35px;
-        font-size: 25px;
-        margin: 0 8px 0 8px;
-        display: inline-block;
-      }
-    }
-    .top-menu {
-      display: inline-block;
-      float: right;
-      .top-menu-sub-all {
-        display: inline-block;
-        height: 100%;
-        p {
-          line-height: 35px;
-          height: 100%;
-          display: inline-block;
-        }
-      }
-    }
-  }
-}
-.main-nav-search {
-  width: 100%;
-  height: 100px;
-  .search-content {
-    width: 1190px;
-    height: 100%;
-    margin: 0 auto;
-    position: relative;
-    .logo {
-      display: inline-block;
-      width: 100px;
-      height: 100%;
-      background-color: #22222222;
-    }
-    .search-box {
-      width: 630px;
-      height: 87px;
-      display: inline-block;
-      background-color: #33191970;
-      position: absolute;
-      bottom: 8px;
-      left: 280px;
-    }
-    .hot-activity {
-      float: right;
-      width: 100px;
-      height: 100%;
-      display: inline-block;
-      background-color: #119400d3;
-    }
-  }
-}
+@import "all";
+@import "main-nav-top";
+@import "main-nav-search";
+
+
 .main-content {
   width: 100%;
   height: 662px;
