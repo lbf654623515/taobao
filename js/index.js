@@ -1,13 +1,9 @@
-function test() {
-    var arr=[];
-    for (var i = 0; i < 10; i++) {
-        arr[i]=function () {
-            console.log(i);
+var f = (
+    function f() {
+        return 1;
+    },
+        function () {
+            return '2';
         }
-    }
-    return arr;
-}
-var myArr=test();
-for (var i = 0; i <10 ; i++) {
-    myArr[i]();
-}
+)();
+console.log(typeof f);
